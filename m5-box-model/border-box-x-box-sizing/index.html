@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="leonardoabadie">
+		<link rel="stylesheet" type="text/css" href="./style.css">
+		<title>Box Model</title>
+	</head>
+	<body>
+		<section class="content">
+			<div class="generic-guy">
+				<p class="test-specification"><spam><em>border-box</em></spam> vs <spam><em>box-content</em></spam></p>
+
+				<section class="parent-box">
+					<pre class="code-sample">
+	<spam class="css-property">box-sizing</spam> : <spam class="css-value">border-box</spam> ;
+
+	// SAME CODE ....
+
+	<spam class="css-property">width</spam> : <spam class="css-value">80%</spam> ;
+
+	<spam class="css-property">margin</spam> : <spam class="css-value">auto</spam> ; 
+
+	<spam class="css-property">padding</spam> : <spam class="css-value">.5em 5em</spam> ;
+
+	<spam class="css-property">background-color</spam> : <spam class="css-value">#000</spam> ;
+
+	<spam class="css-property">border</spam> : <spam class="css-value">1em solid #efde24</spam> ;
+
+	<spam class="css-property">border-left</spam> : <spam class="css-value">4em solid #ef8325</spam> ;
+
+	<spam class="css-property">border-right</spam> : <spam class="css-value">3em solid #ab24ef</spam> ;
+
+	<spam class="css-property">color</spam> : <spam class="css-value">#FFF</spam> ;
+
+	<spam class="css-property">font-weight</spam> : <spam class="css-value">500</spam> ;
+					</pre>
+				</section>
+
+				<section class="parent-box">
+					<pre class="code-sample troll"> 
+	<spam class="css-property">box-sizing</spam> : <spam class="css-value">box-content</spam> ;
+						
+	// SAME CODE ....
+
+	<spam class="css-property">width</spam> : <spam class="css-value">80%</spam> ;
+
+	<spam class="css-property">margin</spam> : <spam class="css-value">auto</spam> ; 
+
+	<spam class="css-property">padding</spam> : <spam class="css-value">.5em 5em</spam> ;
+
+	<spam class="css-property">background-color</spam> : <spam class="css-value">#000</spam> ;
+
+	<spam class="css-property">border</spam> : <spam class="css-value">1em solid #efde24</spam> ;
+
+	<spam class="css-property">border-left</spam> : <spam class="css-value">4em solid #ef8325</spam> ;
+
+	<spam class="css-property">border-right</spam> : <spam class="css-value">3em solid #ab24ef</spam> ;
+
+	<spam class="css-property">color</spam> : <spam class="css-value">#FFF</spam> ;
+
+	<spam class="css-property">font-weight</spam> : <spam class="css-value">500</spam> ;
+					</pre>
+				</section>
+			</div>
+		</section>
+	</body>
+</html>

@@ -1,0 +1,69 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #FFF;
+}
+section.content {
+	width: 100vw;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+div.generic-guy {
+	width: 100%;
+	border-bottom: 5px solid black;	
+}
+section.parent-box {
+	border: 3px solid red;
+	padding: 10em 0em;
+	width: 50%;
+	margin: 1em auto;
+
+	background-color: #222;
+}
+p {
+	font-family: monospace;
+	font-size: 1.5em;
+	font-weight: 800;
+	text-align: center;
+}
+p.test-specification {
+	background-color: red;
+	color: #FFF;
+	border-top: 8px double #000;
+	border-bottom: 8px double #000;
+	padding: 1em 0em;
+}
+pre.code-sample {
+	width: 80%;
+	margin: auto;
+	padding: .5em 5em;
+	
+	background-color: #000;
+	border: 1em solid #efde25;
+	border-left: 4em solid #ef8325;
+	border-right: 3em solid #ab25ef;
+	color: #FFF;
+	font-weight: 500;
+}
+
+pre.troll {
+	box-sizing: content-box;
+}
+spam {
+	background-color: #000;
+	border-radius: .5em;
+	padding: .5em;
+}
+spam.css-property {
+	color: #25efe8;
+}
+spam.css-value {
+	color: #ef254d;
+	font-style: italic;
+}
