@@ -1,2 +1,3 @@
 # fundamentar-rocketseat
-A repository related to the challenges of the course Fundamentar from Rocketeat (pt-BR)
+
+This repository contains web pages related to the challenges proposed during the course, aiming to learn HTML good practices and CSS responsiveness
